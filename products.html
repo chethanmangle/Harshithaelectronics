@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Power Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .products-section {
+            padding: 120px 5% 5rem;
+        }
+        
+        .product-card {
+            background: var(--white);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        
+        .product-content {
+            padding: 2rem;
+        }
+        
+        .product-content h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .product-features {
+            list-style: none;
+            margin: 1rem 0;
+        }
+        
+        .product-features li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        
+        .product-features li:before {
+            content: "✓";
+            color: var(--secondary-color);
+            position: absolute;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Power Solutions</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html" class="active">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <main class="products-section">
+        <h2>Our Products</h2>
+        
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="UPS System" class="product-image">
+            <div class="product-content">
+                <h3>UPS Systems</h3>
+                <p>Our high-quality UPS systems provide reliable backup power for your critical equipment. Available in various capacities to meet your specific needs.</p>
+                <ul class="product-features">
+                    <li>Pure sine wave output</li>
+                    <li>Automatic voltage regulation</li>
+                    <li>LCD display for status monitoring</li>
+                    <li>Multiple battery backup options</li>
+                    <li>Surge protection</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Bus Inverter" class="product-image">
+            <div class="product-content">
+                <h3>Bus Inverters</h3>
+                <p>Specialized power conversion solutions designed for transportation needs, ensuring reliable power supply in moving vehicles.</p>
+                <ul class="product-features">
+                    <li>High-efficiency conversion</li>
+                    <li>Compact design</li>
+                    <li>Temperature monitoring</li>
+                    <li>Multiple output options</li>
+                    <li>Rugged construction</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Stabilizer" class="product-image">
+            <div class="product-content">
+                <h3>Voltage Stabilizers</h3>
+                <p>Advanced voltage stabilization solutions to protect your equipment from voltage fluctuations and ensure optimal performance.</p>
+                <ul class="product-features">
+                    <li>Wide input voltage range</li>
+                    <li>Fast response time</li>
+                    <li>Digital display</li>
+                    <li>Overload protection</li>
+                    <li>Silent operation</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>Email: chethanmangle@gmail.com</p>
+                <p>Phone: +91 XXXXXXXXXX</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Power Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

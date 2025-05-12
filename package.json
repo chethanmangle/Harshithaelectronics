@@ -5,12 +5,10 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-<<<<<<< HEAD
-    "dev": "node script.js"
-=======
-    "dev": "live-server"
->>>>>>> d924cc7 (finally)
-  },
+    "dev": "npx http-server -p 3000",
+    "start": "node script.js",
+    "build": "browserify script.js -o bundle.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chethanmangle/contact.git"
@@ -21,12 +19,8 @@
   "bugs": {
     "url": "https://github.com/chethanmangle/contact/issues"
   },
-<<<<<<< HEAD
   "homepage": "https://github.com/chethanmangle/contact#readme",
   "dependencies": {
     "jsdom": "^26.1.0"
   }
-=======
-  "homepage": "https://github.com/chethanmangle/contact#readme"
->>>>>>> d924cc7 (finally)
 }
